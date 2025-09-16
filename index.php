@@ -50,8 +50,12 @@ $d = 4;
 echo "<br>" . "Résultat : " . intdiv($n, $d) . "%";
 
 // Exercice 10
+$note1 = 15;
+$note2 = 17;
+$note3 = 16;
+$moyenne = ($note1 + $note2 + $note3) / 3;
 
-
+echo "<br>" . "Moyenne : " . ($moyenne);
 
 // Exercice 11
 $texte = "Aujourd'hui, tu codes en \"PHP\" à DWWM - Toulon";
